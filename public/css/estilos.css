@@ -1,0 +1,74 @@
+body {
+    overflow: scroll; 
+    
+}
+h1{
+	font-family: "Gamja Flower", cursive
+}
+
+.frase{
+
+	font-size: 20px;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	
+}
+.campo-digitacao{
+	font-size: 20px;
+	height: 130px;
+	border: 10px solid black;
+}
+.campo-desativado {
+	background-color: lightgrey;
+}
+.icones {
+	vertical-align: middle;
+}
+.borda-verde {
+	border: 10px solid green;
+}
+.borda-vermelha{
+	border: 10px solid red;
+	flex:;
+
+}
+.desativa-botao {
+
+	pointer-events: none;
+	opacity: 0.2;
+}
+.placar {
+	display: none;
+}
+#erro {
+	color: red;
+	display: none;
+}
+#spinner {
+
+	display: none;
+}
+#frase-id{
+	width: 40px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 20px;
+	border: 2px solid black;
+}
+#botao-sync {
+	float: right;
+}
+.select-usuarios {
+	display: inline-block;
+}
+#usuarios {
+	display: block;
+}
+.selectize-input {
+    width: 150px;
+    vertical-align: middle;
+    text-align: left;
+    color: red;
+
+}	
