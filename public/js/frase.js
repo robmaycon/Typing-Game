@@ -1,6 +1,6 @@
 $("#botao-frase").click(fraseAleatoria);
 $("#botao-frase-id").click(buscaFrase);
-/* desabilita o botao quando o jogo comebar*/
+/* desabilita o botao quando o jogo comecar*/
 function fraseAleatoria(){
 	$("#spinner").toggle();
 	$.get("http://localhost:3000/frases",trocafrasealeatoria)
